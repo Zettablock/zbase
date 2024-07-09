@@ -2,9 +2,9 @@ module github.com/Zettablock/zbase
 
 go 1.21
 
-replace github.com/ethereum/go-ethereum v1.0.0 => github.com/base-org/op-geth v0.0.0-20240221010910-78436b6ae2a4
+replace github.com/ethereum/go-base => github.com/Zettablock/op-geth v1.0.0
 
-require github.com/ethereum/go-ethereum v1.0.0
+require github.com/ethereum/go-base v1.0.0
 
 require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
