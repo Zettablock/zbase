@@ -1,7 +1,7 @@
 package base
 
 import (
-	"github.com/ethereum/go-base/ethclient"
+	"github.com/Zettablock/op-geth/ethclient"
 )
 
 type Client struct {
